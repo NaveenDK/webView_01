@@ -101,9 +101,7 @@ sendPostMessage() {
             'content-type': 'multipart/form-data',
           },
         });
-}
-
-
+      }
 }
 
 
