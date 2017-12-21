@@ -7,19 +7,17 @@ import {
   WebView
 } from 'react-native';
 
-const htmlURL =require('./assets/index.html');
+//const htmlURL =require('./assets/index.html').uri;
 export default class testWebBridge extends React.Component {
 
   render() {
-    //let yourAlert = 'alert("hello")'
   
     return (
      
        <WebView
-      //  javaScriptEnabled={true}
-       // domStorageEnabled={true}
-        //injectedJavaScript={yourAlert}
-        source={{html:htmlURL}} style={{ marginTop: 20  }} 
+      
+        source={{uri:'https://blooming-tor-31315.herokuapp.com/'}}
+         style={{ marginTop: 20  }} 
         />
    
    )

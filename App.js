@@ -7,10 +7,10 @@ import WebBridge from './testWebBridge';
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
+      
       
        <WebBridge/>
-      </View>
+     
     );
   }
 }
